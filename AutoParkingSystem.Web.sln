@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoParkingSystem.Core", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoParkingSystem.Infrastructure", "AutoParkingSystem.Infrastructure\AutoParkingSystem.Infrastructure.csproj", "{97B9FB92-CC55-4876-872E-3B235A5A280F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoParkingSystem.Tests", "AutoParkingSystem.Tests\AutoParkingSystem.Tests.csproj", "{34DA9119-E204-4DC6-8E7B-B3A7D8870602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoParkingSystem.Tests", "AutoParkingSystem.Tests\AutoParkingSystem.Tests.csproj", "{34DA9119-E204-4DC6-8E7B-B3A7D8870602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoParkingSystem.Model", "AutoParkingSystem.Model\AutoParkingSystem.Model.csproj", "{95D8A851-13E3-490E-A1EC-1E24DD326A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoParkingSystem.Repository", "AutoParkingSystem.Repository\AutoParkingSystem.Repository.csproj", "{821DDB30-E48D-47D1-9ACC-ACC65F2852B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{34DA9119-E204-4DC6-8E7B-B3A7D8870602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34DA9119-E204-4DC6-8E7B-B3A7D8870602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34DA9119-E204-4DC6-8E7B-B3A7D8870602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D8A851-13E3-490E-A1EC-1E24DD326A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D8A851-13E3-490E-A1EC-1E24DD326A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D8A851-13E3-490E-A1EC-1E24DD326A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D8A851-13E3-490E-A1EC-1E24DD326A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821DDB30-E48D-47D1-9ACC-ACC65F2852B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821DDB30-E48D-47D1-9ACC-ACC65F2852B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821DDB30-E48D-47D1-9ACC-ACC65F2852B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821DDB30-E48D-47D1-9ACC-ACC65F2852B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

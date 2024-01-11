@@ -1,5 +1,4 @@
-﻿using AutoParkingSystem.Core.Services;
-using S7.Net;
+﻿using S7.Net;
 
 namespace AutoParkingSystem.Infrastructure.Services
 {

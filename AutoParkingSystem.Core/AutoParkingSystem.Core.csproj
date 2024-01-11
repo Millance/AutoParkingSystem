@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AutoParkingSystem.Infrastructure\AutoParkingSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\AutoParkingSystem.Model\AutoParkingSystem.Model.csproj" />
+  </ItemGroup>
+
 </Project>
